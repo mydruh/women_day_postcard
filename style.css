@@ -5,7 +5,7 @@ html, body {
 body {
     margin: 0;
     background: #fdfdfd;
-    overflow: hidden;
+    overflow: scroll;
     perspective: 1000px;
     font-family: 'Caveat', cursive;
 }

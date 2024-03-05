@@ -22,6 +22,10 @@ function animm(elm) {
 
 function R(min,max) { return min+Math.random() * (max-min) };
 
+// var card = document.getElementById('card')
+
+// card.style.width = window.screen.width + 'px'
+
 var title_block = document.getElementById('title')
 
 if(location.search.split('for=')[1] == 'sabina'){

@@ -22,9 +22,12 @@ function animm(elm) {
 
 function R(min,max) { return min+Math.random() * (max-min) };
 
-// var card = document.getElementById('card')
+if(window.screen.width < 500){
+    var card = document.getElementById('card')
 
-// card.style.width = window.screen.width + 'px'
+    card.style.maxWidth = '300px'
+    card.style.transform = 'translate3d(-47%, -50%, 0) rotateY(10deg)'
+}
 
 var title_block = document.getElementById('title')
 

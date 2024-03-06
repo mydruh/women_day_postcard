@@ -1,6 +1,7 @@
 // const InitAuth = require("./auth.js").InitAuth;
 // import dotenv from 'dotenv';
 import { InitAuth, GetUserInfo } from "./auth.js";
+import Typed from 'typed.js';
 
 // dotenv.config();
 

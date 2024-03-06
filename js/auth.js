@@ -2,7 +2,8 @@ import axios from 'axios';
 import { Service } from 'axios-middleware';
 
 const VUE_APP_AUTHORITY_SERVICE= 'https://permissionext.applecity.kz/auth_service'
-const VUE_APP_SIGN_ID = 'fd3672d6-50da-42d2-9b1e-8286ccb23708'
+// const VUE_APP_SIGN_ID = '20cd7e75-1e7b-4d0d-9ca6-76377a3efc0a' //prod
+const VUE_APP_SIGN_ID = 'fd3672d6-50da-42d2-9b1e-8286ccb23708' //dev
 
 const base_url = '/';
 let person_info = {};

@@ -8,11 +8,6 @@ import Typed from 'typed.js';
 const main = async () => {
   await InitAuth();
   const userInfo = GetUserInfo()
-  console.log(userInfo);
-
-  /* https://greensock.com/gsap */
-  // TweenLite.set("#petals", { perspective:600 })
-  TweenLite.set("img", { xPercent: "-50%", yPercent: "-50%" });
 
   var total = 50;
   var warp = document.getElementById("petals"),

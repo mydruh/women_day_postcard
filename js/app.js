@@ -118,7 +118,7 @@ const main = async () => {
         "Поздравляем тебя с Международным Женским Днем! Пусть этот день станет началом новых достижений и свершений. Желаем тебе быть счастливой и уверенной в себе каждый день!",
     },
   }
-  const congrat = congrats[userInfo.email] || congrats.default;
+  const congrat = congrats[userInfo.mail] || congrats.default;
   title_block.innerText = congrat.title;
   var with_love = congrat?.message
 
